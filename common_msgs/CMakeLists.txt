@@ -9,6 +9,10 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
+ add_message_files(
+  FILES
+  com.msg
+)
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(
